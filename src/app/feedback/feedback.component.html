@@ -1,0 +1,16 @@
+<p>feedback works!</p>
+<h2>Feedback Form</h2>
+    <form action="submit_feedback.php" method="post">
+        <label for="feedback">How was your experience?</label><br><br>
+        <input type="radio" id="good" name="feedback" value="Good">
+        <label for="good">Good</label><br>
+        <input type="radio" id="bad" name="feedback" value="Bad">
+        <label for="bad">Bad</label><br>
+        <input type="radio" id="excellent" name="feedback" value="Excellent">
+        <label for="excellent">Excellent</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>

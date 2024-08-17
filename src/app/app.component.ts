@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularapp';
+  product=[1,2,3]
+  value=14
 }
